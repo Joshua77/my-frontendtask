@@ -1,0 +1,137 @@
+.App {
+  text-align: center;
+  background-color: #f4f5f7;
+  max-height: 100vh;
+  padding-left: 144px;
+  padding-right: 144px;
+}
+
+#twittername {
+  font-weight: 700;
+  font-family: "Inter";
+  font-size: 20px;
+  line-height: 30px;
+  text-decoration: none;
+}
+
+#twitter {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 24px 32px;
+  margin: 12px 0 12px 0;
+  /* Gray/200 */
+  background: #eaecf0;
+  border: 1px solid #eaecf0;
+  border-radius: 8px;
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+  font-family: "Inter";
+  font-style: normal;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  color: #101828;
+}
+
+#btn_zuri {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 24px 32px;
+  margin: 12px 0 12px 0;
+  /* Gray/200 */
+  background: #eaecf0;
+  border: 1px solid #eaecf0;
+  border-radius: 8px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+  font-family: "Inter";
+  font-style: normal;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  color: #101828;
+}
+
+#books {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 24px 32px;
+  margin: 12px 0 12px 0;
+  /* Gray/200 */
+  background: #eaecf0;
+  border: 1px solid #eaecf0;
+  border-radius: 8px;
+  font-family: "Inter";
+  font-style: normal;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  color: #101828;
+}
+
+#books__python {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 24px 32px;
+  margin: 12px 0 12px 0;
+  /* Gray/200 */
+  background: #eaecf0;
+  border: 1px solid #eaecf0;
+  border-radius: 8px;
+  font-family: "Inter";
+  font-style: normal;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  color: #101828;
+}
+
+#pitch {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 24px 32px;
+  margin: 12px 0 12px 0;
+  /* Gray/200 */
+  background: #eaecf0;
+  border: 1px solid #eaecf0;
+  border-radius: 8px;
+  font-family: "Inter";
+  font-style: normal;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  color: #101828;
+}
+
+#book__design {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 24px 32px;
+  margin: 12px 0 12px 0;
+  /* Gray/200 */
+  background: #eaecf0;
+  border: 1px solid #eaecf0;
+  border-radius: 8px;
+  font-family: "Inter";
+  font-style: normal;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  color: #101828;
+}
