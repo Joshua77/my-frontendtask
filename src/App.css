@@ -1,9 +1,13 @@
 .App {
   text-align: center;
-  background-color: #f4f5f7;
-  max-height: 100vh;
+  /*background-color: #f4f5f7;*/
+  /*max-height: 100vh;*/
   padding-left: 144px;
   padding-right: 144px;
+}
+
+.profile-pic {
+  border-radius: 275px;
 }
 
 #twittername {
@@ -12,6 +16,7 @@
   font-size: 20px;
   line-height: 30px;
   text-decoration: none;
+  margin-bottom: 76px;
 }
 
 #twitter {
@@ -135,3 +140,69 @@
   font-weight: 500;
   color: #101828;
 }
+
+.icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 26.25px;
+  padding: 30px;
+}
+
+/*.icons{
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 24px 10px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 24px 0px;
+  margin: 64px;
+
+  
+  background: #FFFFFF;
+  
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}*/
+.footer {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  padding: 48px 0px;
+  gap: 64px;
+}
+.zuri {
+  height: 100px;
+}
+
+.text {
+  font-weight: 500;
+  font-family: "Inter";
+  font-size: 30px;
+  font-style: bold;
+  position: absolute;
+  left: 240px;
+}
+
+.intern {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+   /* Inside auto layout */
+  
+  /* Gray/500 */
+  color: #667085;
+ 
+}
+
+
