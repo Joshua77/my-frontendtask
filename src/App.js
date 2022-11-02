@@ -56,7 +56,7 @@ function App() {
       <section className="footer">
         <img className="zuri" style={{ }} src={ZuriTraining} alt="zuritraining" />
         <p className="text"> Training </p>
-        <div className="intern"> HNG Internship 9 Frontend Task </div>
+        <p className="intern"> HNG Internship 9 Frontend Task </p>
         <img className="Ingressive" style={{width: 132, height: 32 }} src={IngressiveGood} alt="ingressive" />
       </section>
 
